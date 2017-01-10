@@ -1,0 +1,2 @@
+You can use command: python evaluate.py to get the evaluation results on each individual models
+You can use command: python cnn_multiple_evaluation.py to get the evaluation result on multiple CNN model

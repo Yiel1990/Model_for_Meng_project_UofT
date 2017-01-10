@@ -1,0 +1,1 @@
+This directory is used for saving the temporay model while training, it is better to empty this directory before training another model.

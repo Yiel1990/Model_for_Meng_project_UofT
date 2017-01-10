@@ -1,0 +1,19 @@
+Note: Before running the code, please firstly run the setup.py to extract the model file.
+
+Function of each file:
+evaluate.py is used for showing the performance for each individual model on the private test set on Fer2013 data set.
+cnn_multiple_evaluation.py is used for showing the performance for our multiple convolution neural network model on the private test set on Fer2013 data set.
+load_data.py is used for laoding image data from the directory.
+model.py stores the structure for individual model.
+predict.py is used for predicting the type of expression given an image, the command is like "python predict.py imagefile"
+processing.py is used for preprocessing the image file.
+cnn_ICML.py, cnn_VGG.py and cnn_VGG_19 are used for trainning each individual model.
+
+Performance:
+Our multiple convolution neural network can gain an accuracy about 71.13% on private test set of Fer2013, which is only slightly lower than the state-of-art method that can gain about 72%.
+
+Usage of the model:
+I use this model to develop an android application which can determine the type of expression for the people given the image.
+
+Next work:
+The future work is to replace the softmax layer with SVM classifier to further improve the performance.
